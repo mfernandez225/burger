@@ -1,0 +1,22 @@
+body {
+  background-image: url(/images/hermes-rivera-gv_XRp4dUqM-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+h1 {
+  font-family: 'Pacifico';
+}
+
+h5 {
+  color: black;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.card-state {
+  background-color: rgba(200, 200, 200, 0.4)
+}

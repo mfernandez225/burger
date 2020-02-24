@@ -1,5 +1,5 @@
 body {
-  background-image: url(/images/hermes-rivera-gv_XRp4dUqM-unsplash.jpg);
+  background-image: url(/images/hamburger.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -19,4 +19,9 @@ h5 {
 
 .card-state {
   background-color: rgba(200, 200, 200, 0.4)
+}
+
+li {
+  font-weight: bold;
+  text-align: left;
 }

@@ -3,12 +3,12 @@
     <div class="card card-state">
       <div class="card-body">
         <h5 class="card-title">Ready to Devour!</h5>
-        <ul>
+        <ul style="list-style-type: none;">
           {{#each burgers}}
           {{#unless devoured}}
           <li>
             {{burger_name}}
-            <button class="devourButton" data-id="{{id}}">Devour!</button>
+            <button class="devourButton btn btn-danger ml-1" data-id="{{id}}">Devour!</button>
           </li>
           {{/unless}}
           {{/each}}
@@ -20,7 +20,7 @@
     <div class="card card-state">
       <div class="card-body">
         <h5 class="card-title">Finished</h5>
-        <ul>
+        <ul style="list-style-type: none;">
           {{#each burgers}}
           {{#if devoured}}
           <li>
